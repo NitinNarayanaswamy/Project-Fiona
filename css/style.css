@@ -5,3 +5,20 @@ body {
 #canvas {
   background-color: white
 }
+
+#navbarmobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbarmobile {
+    display: inline-block;
+    width: 100%;
+  }
+  #navbardesktop {
+    display: none;
+  }
+  #maincontent {
+    margin-left: 0px !important;
+  }
+}
